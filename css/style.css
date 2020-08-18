@@ -1,0 +1,35 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+@media (min-width: 1190px) {
+  .port-item {
+    padding: 4.2em !important ;
+  }
+}
+
+.bg-danger {
+  background-color: #eb5e54 !important;
+}
+
+.bg-success {
+  background-color: #51c936 !important;
+}
+
+.bg-warning {
+  background-color: #cccc2b !important;
+}
