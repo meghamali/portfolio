@@ -51,6 +51,9 @@
                       href="https://www.linkedin.com/in/megha-mali-630607109"
                       target="_blank"
                       class="text-white"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="LinkedIn"
                     >
                       <i class="fab fa-linkedin"></i
                     ></a>
@@ -60,6 +63,9 @@
                       href="http://github.com/meghamali"
                       target="_blank"
                       class="text-white"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="GitHub"
                     >
                       <i class="fab fa-github"></i
                     ></a>
@@ -70,6 +76,9 @@
                       href="https://www.hackerrank.com/imeghamali"
                       target="_blank"
                       class="text-white"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="HackerRank"
                     >
                       <i class="fab fa-hackerrank"></i
                     ></a>
@@ -79,6 +88,9 @@
                       href="https://www.facebook.com/imeghamali"
                       target="_blank"
                       class="text-white"
+                      data-toggle="tooltip"
+                      data-placement="top"
+                      title="Facebook"
                     >
                       <i class="fab fa-facebook"></i
                     ></a>
@@ -340,10 +352,10 @@
     </div>
   </body>
   <script>
+    //init tooltip
+    $('[data-toggle="tooltip"]').tooltip();
     $('.port-item').click(function () {
       $('.collapse').collapse('hide');
     });
   </script>
 </html>
-
-
